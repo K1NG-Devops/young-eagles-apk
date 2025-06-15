@@ -1,6 +1,4 @@
-import type { CapacitorConfig } from '@capacitor/cli';
-
-const config: CapacitorConfig = {
+const config = {
   appId: 'com.youngeagles.dashboard',
   appName: 'Young Eagles Dashboard',
   webDir: 'dist',
@@ -29,4 +27,5 @@ const config: CapacitorConfig = {
   }
 };
 
-export default config;
+module.exports = config;
+
