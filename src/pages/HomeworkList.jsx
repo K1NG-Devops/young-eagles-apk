@@ -17,7 +17,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { toast } from 'sonner';
 import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
-import { storage } from '../../firebase';
+import { storage } from '../firebase';
 import { FaFileAlt, FaEdit, FaUpload, FaCheck, FaTrash, FaEye } from 'react-icons/fa';
 import ColorMatchActivity from '../ColorMatchHomework';
 import MemoryActivity from '../components/activities/MemoryActivity';
